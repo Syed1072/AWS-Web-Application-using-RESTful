@@ -46,7 +46,7 @@ From the main edit screen for your function, select Configure test events from t
 
 Click Create. On the main function edit screen click Test with TestRequestEvent selected in the dropdown. Scroll to the top of the page and expand the Details section of the Execution result section. Verify that the execution succeeded and that the function result looks like the following:
 
-*** 
+```
 {
   "statusCode": 201,
   "body": "{\"RideId\":\"1h0zDZ-6KLZaEQCPyqTxeQ\",\"Unicorn\":{\"Name\":\"Shadowfax\",\"Color\":\"White\",\"Gender\":\"Male\"},\"UnicornName\":\"Shadowfax\",\"Eta\":\"30 seconds\",\"Rider\":\"the_username\"}",
@@ -54,4 +54,4 @@ Click Create. On the main function edit screen click Test with TestRequestEvent 
     "Access-Control-Allow-Origin": "*"
   }
 }
-***
+```
